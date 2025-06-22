@@ -1,2 +1,10 @@
 # XP-LSD-comet-screensaver
 XP LSD comet screensaver
+
+
+compile .cs with
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe /target:exe /out:xpLSD.exe /unsafe /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll xpLSD.cs
+
+then rename .exe to .scr and place in c:\windows\system32\
+
+open screensaver settings and select.
